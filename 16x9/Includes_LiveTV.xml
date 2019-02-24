@@ -178,7 +178,7 @@
 						<font>font16</font>
 						<textcolor>grey</textcolor>
 						<label>$INFO[PVR.TimeshiftCur(hh:mm)] (-$INFO[PVR.TimeshiftOffset])</label>
-						<visible>Pvr.IsTimeShift</visible>
+						<visible>Pvr.IsTimeShift + !Skin.HasSetting(infobar_hidetimeshifttime)</visible>
 					</control>
 					<control type="label">
 						<left>1288</left>

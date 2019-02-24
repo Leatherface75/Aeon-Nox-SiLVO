@@ -576,6 +576,10 @@ msgctxt "#31139"
 msgid "Hide signal information"
 msgstr ""
 
+msgctxt "#41140"
+msgid "Hide Timeshift Time"
+msgstr ""
+
 msgctxt "#31140"
 msgid "Sideblade Options"
 msgstr ""
