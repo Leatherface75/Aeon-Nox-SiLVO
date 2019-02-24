@@ -591,6 +591,10 @@ msgctxt "#31139"
 msgid "Hide signal information"
 msgstr "Dölj signalinformation"
 
+msgctxt "#41140"
+msgid "Hide Timeshift Time"
+msgstr "Dölj tidsskiftestid"
+
 msgctxt "#31140"
 msgid "Sideblade Options"
 msgstr "Alternativ för sideblade"

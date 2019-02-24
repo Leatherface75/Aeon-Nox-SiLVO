@@ -131,6 +131,13 @@
 					<width>963</width>
 					<visible>!String.IsEqual(Skin.String(LiveTV.InfobarType),1)</visible>
 				</control>
+	                        <control type="radiobutton" id="409">
+                                        <label>$LOCALIZE[41140]</label>
+                                        <onclick>Skin.ToggleSetting(infobar_hidetimeshifttime)</onclick>
+                                        <selected>Skin.HasSetting(infobar_hidetimeshifttime)</selected>
+                                        <width>963</width>
+                                        <visible>!String.IsEqual(Skin.String(LiveTV.InfobarType),1)</visible>
+                                </control>
 				<!-- SIDEBLADE SETTINGS -->
 				<control type="label" id="203">
 					<width>963</width>
