@@ -846,7 +846,7 @@
 						<font>font15</font>
 						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<label>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ,: ]$INFO[ListItem.Title,[COLOR grey2],[/COLOR]]$INFO[ListItem.Genre,     $LOCALIZE[515]: [COLOR grey2],[/COLOR]]</label>
+						<label>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ,: ]$INFO[ListItem.Title,[COLOR grey2],[/COLOR]][CAPITALIZE]$INFO[ListItem.Genre,     $LOCALIZE[515]: [COLOR grey2],[/COLOR]][/CAPITALIZE]</label>
 					</control>
 					<control type="textbox">
 						<left>15</left>
@@ -1146,7 +1146,7 @@
 					<height>30</height>
 					<font>font12</font>
 					<textcolor>$VAR[ThemeLabelColor]</textcolor>
-					<label>$INFO[ListItem.Genre]</label>
+					<label>[CAPITALIZE]$INFO[ListItem.Genre][/CAPITALIZE]</label>
 				</control>
 				<control type="label">
 					<top>70</top>

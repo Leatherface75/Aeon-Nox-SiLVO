@@ -3009,14 +3009,14 @@
 					<width>1000</width>
 					<height>30</height>
 					<textcolor>grey</textcolor>
-					<label>$INFO[VideoPlayer.Genre,$LOCALIZE[515]: ]</label>
+					<label>[CAPITALIZE]$INFO[VideoPlayer.Genre,$LOCALIZE[515]: ][/CAPITALIZE]</label>
 					<visible>String.IsEmpty(Window(fullscreeninfo).Property(LiveTVNext))</visible>
 				</control>
 				<control type="label">
 					<width>1000</width>
 					<height>30</height>
 					<textcolor>grey</textcolor>
-					<label>$INFO[VideoPlayer.NextGenre,$LOCALIZE[515]: ]</label>
+					<label>[CAPITALIZE]$INFO[VideoPlayer.NextGenre,$LOCALIZE[515]: ][/CAPITALIZE]</label>
 					<visible>!String.IsEmpty(Window(fullscreeninfo).Property(LiveTVNext))</visible>
 				</control>
 				<control type="group">

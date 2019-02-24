@@ -524,7 +524,7 @@
 						<font>font14</font>
 						<textcolor>$VAR[ThemeHomeLabelColor]</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<label>$INFO[Container(51).ListItem.StartTime]$INFO[Container(51).ListItem.EndTime, - ,: ][COLOR grey2]$INFO[Container(51).ListItem.Title][/COLOR]$INFO[Container(51).ListItem.Genre,   $LOCALIZE[515]: [COLOR grey2],[/COLOR]]</label>
+						<label>$INFO[Container(51).ListItem.StartTime]$INFO[Container(51).ListItem.EndTime, - ,: ][COLOR grey2]$INFO[Container(51).ListItem.Title][/COLOR][CAPITALIZE]$INFO[Container(51).ListItem.Genre,   $LOCALIZE[515]: [COLOR grey2],[/COLOR]][/CAPITALIZE]</label>
 					</control>
 					<control type="textbox" id="71">
 						<label>[B]$INFO[Container(51).ListItem.EpisodeName,,[CR]][/B]$INFO[Container(51).ListItem.Plot]</label>
@@ -852,7 +852,7 @@
 							<height>40</height>
 							<width>700</width>
 							<textcolor>$VAR[ThemeLabelColor]</textcolor>
-							<label>$INFO[Container(52).ListItem.Genre,$LOCALIZE[515]: [COLOR grey2],[/COLOR]]</label>
+							<label>[CAPITALIZE]$INFO[Container(52).ListItem.Genre,$LOCALIZE[515]: [COLOR grey2],[/COLOR]][/CAPITALIZE]</label>
 						</control>
 						<control type="label">
 							<top>45</top>
