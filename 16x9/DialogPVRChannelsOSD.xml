@@ -239,7 +239,7 @@
 						<height>40</height>
 						<width>715</width>
 						<textcolor>$VAR[ThemeLabelColor]</textcolor>
-						<label>$INFO[Container(11).ListItem.Genre,$LOCALIZE[515]: [COLOR grey],[/COLOR]]</label>
+						<label>[CAPITALIZE]$INFO[Container(11).ListItem.Genre,$LOCALIZE[515]: [COLOR grey],[/COLOR]][/CAPITALIZE]</label>
 					</control>
 					<control type="image">
 						<top>768</top>
